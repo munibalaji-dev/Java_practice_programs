@@ -1,5 +1,5 @@
 package DSA_Basic_Algorithms;
-
+// Linear Search is the simplest searching algorithm. It checks each element in a list one by one until the target element is found or the list ends.
 public class LinearSearch {
 
     static int linearSearch(int[] arr, int target){
