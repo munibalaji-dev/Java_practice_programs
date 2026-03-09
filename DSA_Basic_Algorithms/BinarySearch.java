@@ -1,4 +1,7 @@
 package DSA_Basic_Algorithms;
+// Binary Search is a searching algorithm used to find an element in a sorted array.
+//It works by dividing the array into two halves repeatedly.
+//Instead of checking every element like Linear Search, it checks the middle element first.
 
 public class BinarySearch {
 
