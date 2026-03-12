@@ -1,6 +1,6 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
-public class Day6RemovingZerosAndAddingToLast {
+public class RemovingZerosAndAddingToLast {
     public static void main(String[] args){
         int[] arr = {1,0,2,3,0,0,4,0,5};
         for (int i=0;i<arr.length;i++){

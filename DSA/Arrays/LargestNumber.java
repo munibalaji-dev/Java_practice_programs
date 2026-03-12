@@ -1,6 +1,6 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
-public class Day2LargestNumber {
+public class LargestNumber {
     public static void main(String[] args) {
 
         int []arr = {110,2,32,3,42,33,22,45};

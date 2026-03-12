@@ -1,8 +1,8 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
 import java.util.Arrays;
 
-public class Day5RightRotation {
+public class RightRotation {
     public static void main(String[] args) {
         int []arr = {1,2,2,3,4,3,3,4};
         int temp = arr[arr.length-1];

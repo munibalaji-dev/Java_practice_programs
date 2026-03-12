@@ -1,6 +1,6 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
-public class Day1TwoSum {
+public class TwoSum {
     public static void main(String[] args) {
         int []nums = {2,4,6,5,6,4};
         int target = 9;

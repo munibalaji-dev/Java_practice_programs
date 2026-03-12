@@ -1,7 +1,7 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 import java.util.Set;
 import java.util.HashSet;
-public class Day8IntersectionOfArrays {
+public class IntersectionOfArrays {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4, 5};
         int[] arr2 = {2, 3, 4, 6, 7};

@@ -1,6 +1,6 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
-public class Day3SecondLargestElement {
+public class SecondLargestElement {
     public static void main(String[] args) {
         int []arr = {1,2,3,2,2,3,};
         int largest = Integer.MIN_VALUE;

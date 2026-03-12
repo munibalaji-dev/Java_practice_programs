@@ -1,8 +1,8 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
-public class Day9MaximumConsecutiveOnes {
+public class MaximumConsecutiveOnes {
     public static void main(String[] args) {
-        int []arr1 = {1,1,2,0,1,1,3,1,1,1};
+        int []arr1 = {1,1,2,0,1,1,1,1,3,1,1,1};
         int count=0;
         int maxCount=0;
         for (int i=0;i<arr1.length;i++){

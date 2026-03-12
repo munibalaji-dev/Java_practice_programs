@@ -1,7 +1,5 @@
 package DSA.Arrays;
 
-
-
 import java.util.Arrays;
 
 public class LeftRotateAnArrayByOnePlace {

@@ -1,10 +1,10 @@
-package DSA.Code_With_J;
+package DSA.Arrays;
 
 import java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
 
-public class Day7UnionOfArrays {
+public class UnionOfArrays {
     public static void main(String[] args) {
 
         int[] arr1 = {1,2,2,3,4,4,5,5};
