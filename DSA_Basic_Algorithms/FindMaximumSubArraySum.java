@@ -5,15 +5,15 @@ public class FindMaximumSubArraySum {
 
     static int subArraySum(int[] arr, int n){
         int maxSum = Integer.MIN_VALUE;
-        int sum =0;
+        int currentSum =0;
         for (int i=0;i<arr.length;i++){
-            sum += arr[i];
+            currentSum += arr[i];
 
-            if (sum>maxSum){
-                maxSum = sum;
+            if (currentSum>maxSum){
+                maxSum = currentSum;
             }
-            if (sum<0){
-                sum = 0;
+            if (currentSum<0){
+                currentSum = 0;
             }
         }
 
