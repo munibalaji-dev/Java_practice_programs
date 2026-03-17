@@ -9,6 +9,7 @@ public class BestTimeToBuyandSellStock {
         for (int i=1;i<prices.length;i++){
             int cost = prices[i] - minPrice;
 
+            // Without inbuilt functions MATH.max(),min();
             if (cost > maxProfit){
                 maxProfit = cost;
             }
