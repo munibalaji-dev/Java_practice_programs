@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 //Given an Array A[] and element K . write a function that returns count of k in A[].
 

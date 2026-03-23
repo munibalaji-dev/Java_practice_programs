@@ -1,4 +1,4 @@
-package _A2Z_Striver_Sheet_;
+package _Basics_;
 
 public class Gcd { // he biggest number that can divide two numbers completely (with no remainder). GCD = Greatest Common Divisor
 

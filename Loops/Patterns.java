@@ -188,13 +188,15 @@ public class Patterns {
     static void pattern17(int n){
         for(int i=0;i<n;i++){
             //spaces
-            for (int space=0;space<n-i-1;space++){
+            for (int space = 0; space < n-i-1; space++){
                 System.out.print(" ");
             }
             // characters
             char ch = 'A';
             int breakpoint = (2*i+1)/2;
-            for (int j=0;j<2*i+1;j++){
+
+            for (int j = 0; j < 2*i+1; j++){
+
                 System.out.print(ch);
                 if (j<=breakpoint) ch++;
                 else ch--;
@@ -203,14 +205,14 @@ public class Patterns {
         }
     }
     static void pattern18(int n){
-        for(int i=0;i<n;i++){
+        for(int i = 0; i < n; i++){
             //spaces
-            for (int space=0;space<n-i-1;space++){
+            for (int space = 0; space < n-i-1; space++){
                 System.out.print(" ");
             }
             //characters
             char ch = 'A';
-            for (int j=0;j<2*i+1;j++){
+            for (int j=0; j < 2*i+1; j++){
                 System.out.print(ch);
                 ch++;
             }
@@ -218,8 +220,9 @@ public class Patterns {
         }
     }
     static void pattern19(int n){
-        for(int i=0;i<n;i++){
-            for(char ch=(char)('E'-i);ch<='E';ch++){
+
+        for(int i = 0; i < n; i++){
+            for(char ch = (char)('E'-i); ch <= 'E'; ch++){
                 System.out.print(ch+" ");
             }
             System.out.println();
@@ -227,36 +230,39 @@ public class Patterns {
     }
     static void pattern20(int n){
         int initialSpace = 0;
-        for(int i=0;i<n;i++){
+
+        for(int i = 0; i < n; i++){
             // stars
-            for(int j=1;j<=n-i;j++){
+            for(int j = 1; j <= n-i; j++){
                 System.out.print("*");
             }
             // spaces
-            for (int space=0;space<initialSpace;space++){
+            for (int space = 0; space < initialSpace; space++){
                 System.out.print(" ");
             }
             // stars
-            for (int j=1;j<=n-i;j++){
+            for (int j = 1; j <= n-i; j++){
                 System.out.print("*");
             }
+
             initialSpace +=2;
             System.out.println();
         }
-//        initialSpace = 8;
+//        initialSpace = 8; Hardcoding
         initialSpace = 2* n-2;
-        for (int i=1;i<=n;i++){
+
+        for (int i = 1; i <= n; i++){
             // stars
-            for (int j=1;j<=i;j++){
+            for (int j = 1; j <= i; j++){
                 System.out.print("*");
             }
             // spaces
 //            for (int space=0;space<=2*n-(2*i+2);space++){
-            for (int space=0;space<initialSpace;space++){
+            for (int space = 0; space < initialSpace; space++){
                 System.out.print(" ");
             }
             //stars
-            for (int j=1;j<=i;j++){
+            for (int j = 1; j <= i; j++){
                 System.out.print("*");
             }
             initialSpace -= 2;
@@ -265,9 +271,10 @@ public class Patterns {
     }
     static void pattern21(int n){
         int initialSpace = 2*n-2;
-        for (int i=1;i<2*n-1;i++){
+
+        for (int i = 1; i < 2*n-1; i++){
             int stars = i;
-            if (i>n) stars = 2*n-i;  // 2*5-6 = 4
+            if (i > n) stars = 2*n-i;  // 2*5-6 = 4
             // stars
             for (int j = 1; j <= stars; j++){
                 System.out.print("*");
@@ -280,7 +287,7 @@ public class Patterns {
             for (int j = 1; j <= stars; j++){
                 System.out.print("*");
             }
-            if (i<n) initialSpace -= 2;
+            if (i < n) initialSpace -= 2;
             else initialSpace += 2;
             System.out.println();
 
@@ -301,8 +308,11 @@ public class Patterns {
         }
     }
     static void pattern23(int n){
-        for (int i=0;i<2*n-1;i++){
-            for (int j=0;j<2*n-1;j++){
+
+        for (int i = 0; i < 2*n-1; i++){
+
+            for (int j = 0; j < 2*n-1; j++){
+
                 int top = i;
                 int left = j;
                 int right = (2*n-2) - j;

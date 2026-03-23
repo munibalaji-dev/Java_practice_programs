@@ -41,6 +41,7 @@ public class PalindromeStringCheck {
 //        String name = "racecar";  //Any middle element (if odd length) doesn’t matter — it’s equal to itself.
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string to check if it is palindrome or not ");
         String name = sc.nextLine();
 
 //        String clean = name.replaceAll("[^a-zA-Z0-9]+$","").toLowerCase();

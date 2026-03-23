@@ -8,8 +8,8 @@ public class AscOrDes {
           int[] arr = {112,32,43,45};
         boolean ascending = true;
         boolean descending = true;
-        for (int i=0;i<arr.length-1;i++){  // arr.length-1; it is helpful to avoid ArrayIndexOutOfBoundsException
-            if (arr[i]>arr[i+1]){          // You cannot do better than O(n). Because you must look at every element at least once to be sure. So yes — this is optimal.
+        for (int i = 0; i < arr.length-1; i++){
+            if (arr[i]>arr[i+1]){
                 ascending = false;
 //                break;
             }

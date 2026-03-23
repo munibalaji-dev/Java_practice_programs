@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,13 +7,13 @@ public class PrintInReverse {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter Array Size");
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Array Size");
         int n = sc.nextInt();
 
         int[] arr = new int[n];
 
-        for (int i=0;i< arr.length;i++){
+        for (int i = 0; i < arr.length; i++){
             System.out.println("Enter Array Element At : "+arr[i]);
             arr[i] = sc.nextInt();
         }
@@ -21,7 +21,7 @@ public class PrintInReverse {
 
 
         System.out.print("After Reverse An Array : [");
-        for (int i=n-1;i>=0;i--){
+        for (int i = n-1; i >= 0; i--){
             System.out.print(arr[i]);
 
             if (i !=0){ // i never be not equal to zero so comma print after an element printed
@@ -29,7 +29,10 @@ public class PrintInReverse {
             }
         }
         System.out.println("]");
-//        System.out.println("After Reverse An Array is : "+temp);
 
+        // This one also works to reverse
+//        for(int i = 0; i < arr.length; i++){
+//            System.out.print(arr[arr.length-1-i]+", ");
+//        }
     }
 }

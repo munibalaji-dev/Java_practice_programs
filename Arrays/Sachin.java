@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Sachin {
 
 ////        Find Average of Sachin for 5 matches
 //        int sum = 0;
-//        for (int i=0;i<5;i++){
+//        for (int i = 0; i < 5; i++){
 //            sum += runs[i];
 //        }
 ////        double avg = sum/5.0;
@@ -83,40 +83,5 @@ public class Sachin {
 //        System.out.println("The Minimum Runs is : " + min);
 
 
-
-
-
-        int[] arr = {10,43,54,53,34,3};
-        int[] res = minAndMax(arr);
-
-        System.out.println("Min is :"+res[0]);
-        System.out.println("Max is : "+res[1]);
-
-    }
-
-//     problem : Give array in function and ask them to return min and max from it.
-    public static int[] minAndMax(int[] arr) {
-//        return 0 index value as min and 1 as max
-        int[] res = new int[2];
-        int min = arr[0];
-        int max = arr[0];
-
-//        To find the length of an array /size of an array --> arr,length
-        for (int i=1;i< arr.length;i++){
-
-//            if (arr.length==0){
-//                int[] res ={-1,-1};
-//                return res;
-//            }
-            if (max<arr[i]){
-                max = arr[i];
-            }
-            if (min>arr[i]){
-                min = arr[i];
-            }
-        }
-        res[0] = min;
-        res[1] = max;
-        return res;
     }
 }

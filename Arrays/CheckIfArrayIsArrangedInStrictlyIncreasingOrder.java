@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 //Given an array A[].Write a function which return true if array is arranged in a strictly increasing order otherwise return false
 
@@ -7,29 +7,14 @@ import java.util.Scanner;
 public class CheckIfArrayIsArrangedInStrictlyIncreasingOrder {
 
     public static boolean isIncreasing(int[] arr) {
+
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i - 1] >= arr[i]) {//Checking the previous element is bigger or not
+            if (arr[i - 1] >= arr[i]) {         //Checking the previous element is bigger or not
                 return false;
             }
         }
         return true;
     }
-
-//    public static boolean isIncreasing2(int[] arr) {
-//        for (int i = 0; i < arr.length-1; i++) {
-//            if (arr[i] >= arr[i + 1]) {//Checking the next element is bigger or not
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
-//        for (int i=1;i< arr.length;i++){
-//            if (arr[i]>arr[i-1]){
-//                return true;
-//            }
-//        }
-//        return false;
-//}
 
     public static void main(String[] args) {
 

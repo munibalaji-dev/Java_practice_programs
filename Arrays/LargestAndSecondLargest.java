@@ -11,16 +11,16 @@ public class LargestAndSecondLargest {
 //        int largest = arr[0];
 //        int secondLargest = arr[0];
 
-        int largest = Integer.MIN_VALUE; // We initialize largest and secondLargest with Integer.MIN_VALUE because we are looking for maximum values.
-                                        //Starting with the smallest possible value guarantees that any real array element can replace it.
+        int largest = Integer.MIN_VALUE;
+
         int secondLargest = Integer.MIN_VALUE;
 
-        for (int i=1;i<arr.length;i++){
-            if (arr[i]>largest){
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] > largest){
                 secondLargest = largest;
                 largest=arr[i];
             }
-            else if (arr[i]>secondLargest && arr[i]!=largest){
+            else if (arr[i] > secondLargest && arr[i] != largest){
                 secondLargest = arr[i];
             }
         }

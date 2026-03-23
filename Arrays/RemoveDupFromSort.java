@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 import java.util.Arrays;
 

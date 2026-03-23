@@ -3,7 +3,7 @@ package Arrays;
 public class AverageElement {
     public static void main(String[] args) {
 
-        int[] arr = {1,2,3,4,4};
+        int[] arr = {1,2,3,4,5};
         int sum = 0;
         float average;
 

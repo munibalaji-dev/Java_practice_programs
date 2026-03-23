@@ -7,11 +7,11 @@ public class SmallestAndSecondSmallest {
         int small = Integer.MAX_VALUE;
         int sSmall = Integer.MAX_VALUE;
 
-        for (int i=0;i< arr.length;i++){
-            if (arr[i]<small){
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] < small){
                 sSmall = small;
                 small = arr[i];
-            } else if (arr[i]>sSmall&&arr[i]!=small) {
+            } else if (arr[i] > sSmall && arr[i] != small) {
                 sSmall = arr[i];
 
             }

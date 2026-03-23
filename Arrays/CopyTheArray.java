@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class CopyTheArray {
             System.out.println("Enter Array Element "+i);
             arr[i] = sc.nextInt();
         }
-//        int[] c = new int[arr.length];
+
         int B = 3;
 
         System.out.println("Copy Array is : "+ Arrays.toString(copyArray(arr,B)));

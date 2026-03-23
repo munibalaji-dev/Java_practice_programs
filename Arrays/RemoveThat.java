@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 //Write a program to input N numbers array, A from the user and an integer X and print the array by deleting element at specified position X.
 import java.util.Arrays;
@@ -19,13 +19,13 @@ public class  RemoveThat {
 //        }
     static int[] removeThat(int[] A,int X){
         if (X >= A.length || X<0){
-//            System.out.println("Invalid Number : ");
-            return A;
+            System.out.print("Invalid Number : ");
         }
+        int j = 0;
         int[] newArray = new int[A.length-1];
-        for (int i=0,j=0;i<A.length;i++){
-            if (i!=X){
-                newArray[j++]=A[i];
+        for (int i=0; i<A.length; i++){
+            if (i != X){
+                newArray[j++] = A[i];
             }
         }
         return newArray;
@@ -38,15 +38,17 @@ public class  RemoveThat {
         int n= sc.nextInt();
 
         int[] A = new int[n];
-        for (int i=0;i<A.length;i++){
+
+        for (int i = 0; i < A.length; i++){
             System.out.println("Enter Element at "+i+"th Index :");
             A[i] = sc.nextInt();
         }
+
         System.out.println("Enter X Value :");
         int X = sc.nextInt();
-        System.out.println();
 
-        A = removeThat(A,X);
-        System.out.println(Arrays.toString(A));
+        System.out.println(Arrays.toString(removeThat(A,X)));
+//        System.out.println(Ar5
+//        rays.toString(A));
     }
 }

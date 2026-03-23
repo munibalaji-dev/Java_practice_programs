@@ -1,4 +1,4 @@
-package _ControlFlow_;
+package _Basics_;
 
 public class CountOfDigits {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 //Write a program that returns the list of elements that are present in the given list and are divisible by 5 and 7.
 
@@ -10,14 +10,14 @@ public class DivisibleBy5And7 {
     public static int[] divisibleNumbers(int[] arr){
         int[] arr1 = new int[arr.length];
         int j = 0;
-        for (int i=0;i < arr1.length;i++){
+        for (int i = 0; i < arr1.length; i++){
             if (arr[i] % 5 ==0 && arr[i] % 7 ==0){
                 arr1[j] = arr[i];
                 j++;
             }
         }
         int[] arr2 = new int[j];
-        for (int i=0;i < j;i++){
+        for (int i = 0; i < j; i++){
             arr2[i] = arr1[i];
         }
         return arr2;

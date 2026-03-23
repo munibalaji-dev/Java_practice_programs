@@ -10,22 +10,22 @@ public class SecondLargestAndSecondSmallest {
         int smallest = Integer.MAX_VALUE;
         int sSmallest = Integer.MAX_VALUE;
 
-        for (int i=0 ;i< arr.length;i++){
-            if (arr[i]>largest){
+        for (int i = 0 ; i < arr.length; i++){
+            if (arr[i] > largest){
                 sLargest = largest;
                 largest = arr[i];
             }
-            else if (arr[i]>sLargest && arr[i] != largest){ //It prevents duplicates of largest element from overwriting sLargest.
+            else if (arr[i] > sLargest && arr[i] != largest){ //It prevents duplicates of largest element from overwriting sLargest.
                 sLargest = arr[i];
             }
 
 
             // Smallest And Second Smallest
-            if (arr[i]<smallest){
+            if (arr[i] < smallest){
                 sSmallest = smallest;
                 smallest = arr[i];
             }
-            else if (arr[i]> sSmallest && arr[i] != smallest){  //It prevents duplicates of smallest element from overwriting sSmallest.
+            else if (arr[i] > sSmallest && arr[i] != smallest){  //It prevents duplicates of smallest element from overwriting sSmallest.
                 sSmallest = arr[i];
             }
         }

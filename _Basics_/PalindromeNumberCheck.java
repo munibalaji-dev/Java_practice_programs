@@ -1,4 +1,4 @@
-package _ControlFlow_;
+package _Basics_;
 
 public class PalindromeNumberCheck {
 

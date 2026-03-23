@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 //You are given T(number of test cases) integer arrays.
 // For each array A, you have to find the value of absolute difference between the counts of even and odd elements in the array.
@@ -13,7 +13,7 @@ public class EvenOddElements {
         System.out.println("Enter Number Of Test Cases :");
         int T = sc.nextInt();
 
-        while (T-- > 0) {
+        while (T -- > 0) {
         System.out.println("Enter Array Size :");
         int n = sc.nextInt();
 

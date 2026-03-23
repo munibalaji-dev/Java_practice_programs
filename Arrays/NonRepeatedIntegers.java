@@ -1,4 +1,4 @@
-package DSA.Arrays;
+package Arrays;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -41,12 +41,6 @@ public class NonRepeatedIntegers {
         }
     }
         public static void main(String[] args) {
-            // int[] arr = {10,20,30,40,50};
-            //  int sum = Arrays.stream(arr).sum() ;
-            //   for(int abc : arr){
-            //         sum+=abc;
-            //   }
-            //   System.out.println(sum);
 
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter the arraylist size : ");
@@ -58,7 +52,7 @@ public class NonRepeatedIntegers {
                 int value = sc.nextInt();
                 list.add(value);
             }
-//            System.out.println(nonRepeatedIntegers(list));
+
             nonRepeatedIntegers(list);
     }
 }

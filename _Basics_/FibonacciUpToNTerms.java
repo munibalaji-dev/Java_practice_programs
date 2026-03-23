@@ -1,4 +1,4 @@
-package _ControlFlow_;
+package _Basics_;
 
 
 //   The Fibonacci series is a sequence of numbers where each number is the sum of the two numbers before it. It starts with 0 and 1.
@@ -19,9 +19,9 @@ public class FibonacciUpToNTerms {
         int n = sc.nextInt();
 
         System.out.println("Fibonacci Series up to " + n + " terms:");
-        for (int i=1;i<n;i++){
-            System.out.print(fibonacci(i) + " ");
-
-        }
+//        for (int i = 1; i <= n; i++){
+//            System.out.print(fibonacci(i) + " ");
+//
+//        }
     }
 }

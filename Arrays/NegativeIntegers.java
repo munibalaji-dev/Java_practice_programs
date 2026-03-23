@@ -1,4 +1,4 @@
-package _Scalar_DSA_.Arrays;
+package Arrays;
 
 import java.util.Scanner;
 
@@ -9,8 +9,8 @@ public class NegativeIntegers {
 
     public static void negativeNumbers(int []arr){
 
-        for (int i=0;i< arr.length;i++){
-            if (arr[i]<0){
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] < 0){
                 System.out.print(arr[i]+" ");
             }
         }
@@ -27,7 +27,7 @@ public class NegativeIntegers {
             System.out.println("Enter Array Element in : "+i+" Index");
             arr[i] = sc.nextInt();
         }
-//        System.out.println(negativeNumbers(arr));
+
         negativeNumbers(arr);
     }
 }

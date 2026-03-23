@@ -10,10 +10,10 @@ public class FindNumberIsPositiveNegativeOrZero {
         System.out.println("Enter A Number To Find Whether The Number Is Positive,Negative Or Zero : ");
         int finding = sc.nextInt();
 
-        if(finding>1)
+        if(finding > 1)
             System.out.println("Positive Number : " +finding);
 
-        else if (finding<0)
+        else if (finding < 0)
             System.out.println("Negative Number : " +finding);
 
         else

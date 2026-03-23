@@ -1,4 +1,4 @@
-package _ControlFlow_;
+package _Basics_;
 
 import java.util.Scanner;
 //The square root of a number is the value which, when multiplied by itself, gives the number.√36 = 6 (because 6 × 6 = 36)Math.sqrt(36)  // returns 6.0
@@ -47,6 +47,8 @@ public class PrimeNumberOrNot {
 //            }
 //            return true; // no divisors found → prime
 //        }
+
+
         public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter A Number To Check Whether It Is Prime Or Not : " );

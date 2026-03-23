@@ -6,10 +6,6 @@ public class SortAndMergeArray {
 
     public static void main(String[] args) {
 
-
-//        int[] arr1 = {1, 4, 6, 7};
-//        int[] arr2 = {0, 3, 5, 8, 9};
-//        int[] mergedArray = new int[arr1.length+arr2.length];
         int[] arr1 = {10,20,40,30,60};
         int[] arr2 = {5,8,50,35,38};
         int[] mergedArray = new int[arr1.length+arr2.length];
@@ -21,7 +17,7 @@ public class SortAndMergeArray {
         int j = 0;     // pointer for arr2
         int k = 0;     // pointer for mergedArray
 
-        while (i<arr1.length && j<arr2.length) {
+        while (i < arr1.length && j < arr2.length) {
             if (arr1[i] <= arr2[j]) {
                 mergedArray[k] = arr1[i];
                 i++;
