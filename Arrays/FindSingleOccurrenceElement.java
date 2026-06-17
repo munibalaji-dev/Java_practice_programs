@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 //Given an arraylist in which all elements are present two times except one single element.Find that single element
-public class FindingSpecificElement {
+public class FindSingleOccurrenceElement {
 
 
     public static int findEle(ArrayList<Integer> list){

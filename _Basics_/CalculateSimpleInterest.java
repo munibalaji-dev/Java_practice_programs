@@ -8,7 +8,7 @@ public class CalculateSimpleInterest {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Principle Amount : ");
-        double value = sc.nextDouble();
+        double amount = sc.nextDouble();
 
 
         System.out.println("Enter Rate Of Interest : ");
@@ -17,7 +17,7 @@ public class CalculateSimpleInterest {
         System.out.println("Enter Number of months : ");
         int TimeOfDuration = sc.nextInt();
 
-        double interest = value*rateOfInterest*TimeOfDuration/100;
+        double interest = amount*rateOfInterest*TimeOfDuration/100;
 
 
 

@@ -7,16 +7,24 @@ import java.util.Scanner;
 
 public class FactorialOfNumber {
     public static void main(String[] args) {
-        int factorial =1;
+
         Scanner scn= new Scanner(System.in);
         System.out.println("Enter A Number To Find Factorial : ");
         int n = scn.nextInt();
 
+        if(n < 0){
+            System.out.println("Factorial is not defined for negative numbers");
+            return;
+        }
+
+        int factorial = 1;
+
         for (int i = 1; i <= n; i++){  //n!=n×(n−1)!
             factorial *= i;
         }
-        System.out.println("Factorial of a number is :"+factorial);
+        System.out.println("Factorial of " + n + " is: " + factorial);
 
+        scn.close();
 
             // Recursive function
 //            static int factorial(int n) {

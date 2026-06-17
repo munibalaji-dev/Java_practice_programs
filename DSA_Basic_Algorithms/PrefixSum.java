@@ -12,12 +12,13 @@ public class PrefixSum {
 
         prefix[0] = arr[0];
 
-        for(int i=1;i< arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             prefix[i] = prefix[i-1] + arr[i];
         }
         int L = 1;
         int R = 3;
         int sum;
+
         if(L == 0)
             sum = prefix[R];
         else

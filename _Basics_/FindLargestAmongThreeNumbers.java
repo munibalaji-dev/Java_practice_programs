@@ -18,13 +18,26 @@ public class FindLargestAmongThreeNumbers {
         int C = sc.nextInt();
 
 
-        if (A>B && A>C)
-            System.out.println("A Is Bigger Number : " +A);
+//        if (A >= B && A >= C)
+//            System.out.println("A Is Bigger Number : " + A);
+//
+//        else if (B >= A && B >= C)
+//            System.out.println("B Is Bigger Number : " + B);
+//        else
+//            System.out.println("C Is Bigger Number : " + C);
 
-        else if (B>A && B>C)
-            System.out.println("B Is Bigger Number : " +B);
-        else
-            System.out.println("C Is Bigger Number : " +C);
+        int largest = A;
 
+        if (B > largest){
+            largest = B;
         }
+        if (C > largest){
+            largest = C;
+        }
+
+        System.out.println("Largest Number : "+largest);
+
+    }
+
+
 }

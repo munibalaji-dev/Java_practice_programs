@@ -1,4 +1,4 @@
-package _String_programs_;
+package Strings;
 
 public class UsingInternMethod {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package Arrays;
 
-public class LongestSubArraywithSum {
+public class LongestSubArraywithSumK {
 
 
     // Brute Force

@@ -5,7 +5,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class EvenOddElements {
+public class EvenOddCountDifference {
 
     public static void main(String[] args) {
 

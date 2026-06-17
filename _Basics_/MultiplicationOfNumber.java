@@ -10,8 +10,8 @@ public class MultiplicationOfNumber {
         int n = sc.nextInt();
 
         System.out.println("Multiplication Table of "+n);
-        for (int i=1;i<=10;i++){
-            int product = n*i;
+        for (int i = 1; i <= 10; i++){
+            int product = n * i;
             System.out.println(n+" X "+i+" = "+product);
         }
     }

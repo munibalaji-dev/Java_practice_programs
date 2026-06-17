@@ -279,7 +279,7 @@ public class Patterns {
     static void pattern21(int n){
         int initialSpace = 2*n-2;
 
-        for (int i = 1; i < 2*n-1; i++){
+        for (int i = 1; i < 2*n; i++){
             int stars = i;
             if (i > n) stars = 2*n-i;  // 2*5-6 = 4
             // stars
@@ -338,7 +338,7 @@ public class Patterns {
         for (int i = 0; i < t; i++){
             System.out.println("Enter n value : ");
             int n = sc.nextInt();
-            pattern22(n);
+            pattern21(n);
         }
     }
 }

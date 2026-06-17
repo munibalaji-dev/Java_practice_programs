@@ -37,12 +37,12 @@ public class PrimeNumberOrNot {
 
 //    using Math.sqrt to find prime or not
 //        static boolean isPrime(int n){
-//            if (n<1) return false;  // 0 and 1 are not prime
-//            if (n==2) return true;  // 2 is prime
-//            if (n%2==0) return false;  // even numbers > 2 are not prime
+//            if (n <= 1) return false;  // 0 and 1 are not prime
+//            if (n == 2) return true;  // 2 is prime
+//            if (n % 2 == 0) return false;  // even numbers > 2 are not prime
 //
-//            for (int i =3;i<Math.sqrt(n);i+=2){
-//                if (n%i==0)
+//            for (int i = 3;i <= Math.sqrt(n);i += 2){
+//                if (n % i == 0)
 //                    return false;  // found a divisor, not prime
 //            }
 //            return true; // no divisors found → prime

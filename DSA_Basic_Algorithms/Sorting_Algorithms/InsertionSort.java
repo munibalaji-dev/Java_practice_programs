@@ -6,7 +6,7 @@ public class InsertionSort {
     public static void main(String[] args){
         int[] arr = {5, 3, 8, 4, 2};
 
-        for (int i=1;i<arr.length;i++) {
+        for (int i = 1; i < arr.length; i++) {
             int key = arr[i];
             int j = i-1;
 

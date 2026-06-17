@@ -4,7 +4,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class CountOfNumbers {
+public class CountOccurrencesInArray {
 
     public static int countNum(int[] A,int k){
        int cnt = 0;

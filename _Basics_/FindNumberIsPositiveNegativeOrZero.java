@@ -8,18 +8,25 @@ public class FindNumberIsPositiveNegativeOrZero {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter A Number To Find Whether The Number Is Positive,Negative Or Zero : ");
-        int finding = sc.nextInt();
+        int num = sc.nextInt();
+//
+//        if(num > 0)
+//            System.out.println("Positive Number : " +num);
+//
+//        else if (num < 0)
+//            System.out.println("Negative Number : " +num);
+//
+//        else
+//            System.out.println("You Entered Zero");
+//
+//        sc.close();
 
-        if(finding > 1)
-            System.out.println("Positive Number : " +finding);
+        // Without if using ternary operator
+        String result = (num > 0) ? "positive"
+                     :(num < 0) ? "negative"
+                     :"Zero";
 
-        else if (finding < 0)
-            System.out.println("Negative Number : " +finding);
-
-        else
-            System.out.println("You Entered Zero");
-
-        sc.close();
+        System.out.println(result);
 
     }
 }

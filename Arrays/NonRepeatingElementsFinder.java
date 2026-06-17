@@ -1,8 +1,7 @@
 package Arrays;
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class NonRepeatedIntegers {
+public class NonRepeatingElementsFinder {
 //    public static void main(String[] args) {
 //        ArrayList<Integer> list = new ArrayList<>();
 //        list.add(2);
@@ -40,19 +39,28 @@ public class NonRepeatedIntegers {
             }
         }
     }
-        public static void main(String[] args) {
 
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Enter the arraylist size : ");
-            int n = sc.nextInt();
+    public static void main(String[] args) {
 
-            ArrayList<Integer> list = new ArrayList<>();
-            for(int i=0;i<n;i++){
-                System.out.print("Enter element at "+i+" index : ");
-                int value = sc.nextInt();
-                list.add(value);
-            }
+//            Scanner sc = new Scanner(System.in);
+//            System.out.print("Enter the arraylist size : ");
+//            int n = sc.nextInt();
 
-            nonRepeatedIntegers(list);
+
+        ArrayList<Integer> list = new ArrayList<>();
+//            for(int i = 0; i < n;i++){
+//                System.out.print("Enter element at "+i+" index : ");
+//                int value = sc.nextInt();
+//                list.add(value);
+
+        list.add(2);
+        list.add(4);
+        list.add(5);
+        list.add(2);
+        list.add(6);
+        list.add(4);
+        list.add(7);
+
+        nonRepeatedIntegers(list);
     }
 }

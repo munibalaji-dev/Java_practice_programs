@@ -1,19 +1,19 @@
-package _String_programs_;
+package Strings;
 
 public class VowelConsonentCalculator {
 
     public static void main(String[] args) {
 
-        String finding = "Automation World";
+        String name = "Automation World";
 
-        finding = finding.toLowerCase();
+        name = name.toLowerCase();
         int vowels = 0,consonents = 0;
 
-        for (int i=0;i<finding.length();i++){
+        for (int i=0;i<name.length();i++){
 
-            char ch = finding.charAt(i);
-            if (ch>='a'&&ch<='z'){
-                if (ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'||ch=='u'){
+            char ch = name.charAt(i);
+            if (ch >= 'a' && ch <= 'z'){
+                if (ch == 'a'|| ch == 'e'|| ch == 'i'|| ch == 'o'||ch == 'u'){
                     vowels++;
                 }
                 else {

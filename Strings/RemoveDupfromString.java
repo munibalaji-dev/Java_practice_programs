@@ -1,4 +1,4 @@
-package DSA_Basic_Algorithms.Strings;
+package Strings;
 
 public class RemoveDupfromString {
     public static void main(String[] args) {
