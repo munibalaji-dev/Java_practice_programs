@@ -37,17 +37,25 @@ public class Patterns {
             System.out.println();
         }
     }
+//    static void pattern5(int n){
+//        for (int i=0;i<n;i++){
+//            for (int j=0;j<=n-i-1;j++){ // understand condition
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//    }
     static void pattern5(int n){
-        for (int i=0;i<n;i++){
-            for (int j=0;j<=n-i-1;j++){ // understand condition
+        for (int i = 0; i < n; i++){
+            for (int j = 1; j <= n-i; j++){ // understand condition
                 System.out.print("*");
             }
             System.out.println();
         }
     }
     static void pattern6(int n){
-        for (int i=1;i<=n;i++){
-            for (int j=1;j<=n-i+1;j++){
+        for (int i = 1; i <= n; i++){
+            for (int j = 1; j <= n-i+1; j++){
                 System.out.print(j);
             }
             System.out.println();
@@ -338,7 +346,7 @@ public class Patterns {
         for (int i = 0; i < t; i++){
             System.out.println("Enter n value : ");
             int n = sc.nextInt();
-            pattern21(n);
+            pattern6(n);
         }
     }
 }

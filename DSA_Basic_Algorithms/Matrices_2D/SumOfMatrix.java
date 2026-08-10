@@ -2,7 +2,7 @@ package DSA_Basic_Algorithms.Matrices_2D;
 
 import java.util.Arrays;
 
-/*for addition of matrix -> dimension of both matrix should
+/* For the addition of matrix -> dimension of both matrix should
         be same
 
 
@@ -34,7 +34,7 @@ public class SumOfMatrix {
         int[][] res = new int[totalRows][totalCols];
 
         for(int r = 0; r < res.length; r++){
-            for (int c = 0; c < res[0].length; c++){
+            for (int c = 0; c < res[r].length; c++){
                 res[r][c] = A[r][c]+B[r][c];
             }
             System.out.println();

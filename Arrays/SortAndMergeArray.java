@@ -10,8 +10,8 @@ public class SortAndMergeArray {
         int[] arr2 = {5,8,50,35,38};
         int[] mergedArray = new int[arr1.length+arr2.length];
 
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
+//        Arrays.sort(arr1);
+//        Arrays.sort(arr2);
 
         int i = 0;     // pointer for arr1
         int j = 0;     // pointer for arr2

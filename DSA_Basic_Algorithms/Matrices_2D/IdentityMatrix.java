@@ -1,6 +1,6 @@
 package DSA_Basic_Algorithms.Matrices_2D;
 
-public class IdentityMatrix {
+public class  IdentityMatrix {
 
     public static boolean checkIdentityMatrix(int[][] A){
 

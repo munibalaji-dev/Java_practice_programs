@@ -22,7 +22,7 @@ public class TransposeOfMatrix {
 
         for(int r = 0; r < res.length; r++){
             for(int c = 0; c < res[0].length; c++){
-                res[r][c] = mat[c][r];
+                res[c][r] = mat[r][c];
             }
         }
         return res;

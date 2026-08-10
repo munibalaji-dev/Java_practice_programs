@@ -15,8 +15,8 @@ public class PrefixSum {
         for(int i = 1; i < arr.length; i++){
             prefix[i] = prefix[i-1] + arr[i];
         }
-        int L = 1;
-        int R = 3;
+        int L = 0;
+        int R = arr.length-1;
         int sum;
 
         if(L == 0)
